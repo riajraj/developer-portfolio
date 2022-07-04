@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -19,6 +22,7 @@ section{
 }
 .half-width img{
     width: 100%;
+    text-align: justify;
 }
 .link_button{
     text-decoration: none;
@@ -38,4 +42,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+.experiencesBox{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray ;
+
+}
+#fullStackWebDeveloper{
+    border-left: 10px solid tomato;
+}
+#babyWebDeveloper{
+    border-left: 10px solid blue;
+}
+
+footer{
+    text-align: center;
 }
